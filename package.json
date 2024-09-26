@@ -1,0 +1,26 @@
+{
+  "name": "tugas-typescript",
+  "version": "1.0.0",
+  "description": "tugas 2 typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon tugas1.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayudani/tugas-2-typescript.git"
+  },
+  "author": "bayu dani kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayudani/tugas-2-typescript/issues"
+  },
+  "homepage": "https://github.com/bayudani/tugas-2-typescript#readme",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
