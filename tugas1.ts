@@ -70,22 +70,22 @@ console.log(nama_lengkap);
 
 
 // Method untuk Penjumlahan
-function add(a: number, b: number): number {
+function tambah(a: number, b: number): number {
     return a + b;
 }
 
 // Method untuk Pengurangan
-function subtract(a: number, b: number): number {
+function kurang(a: number, b: number): number {
     return a - b;
 }
 
 // Method untuk Perkalian
-function multiply(a: number, b: number): number {
+function kali(a: number, b: number): number {
     return a * b;
 }
 
 // Method untuk Pembagian
-function divide(a: number, b: number): number {
+function bagi(a: number, b: number): number {
     if (b === 0) {
         throw new Error("tidak boleh nol");
     }
@@ -93,7 +93,7 @@ function divide(a: number, b: number): number {
 }
 
 // Contoh penggunaan method
-console.log(add(10, 5));
-console.log(subtract(10, 5));
-console.log(multiply(10, 5));   
-console.log(divide(10, 5));     
+console.log(tambah(10, 5));
+console.log(kurang(10, 5));
+console.log(kali(10, 5));   
+console.log(bagi(10, 5));     
